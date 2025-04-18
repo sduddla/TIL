@@ -4,14 +4,15 @@
 
 ### ✅ What I did
 
-#### ❗️ tailwind로 버튼 UI 만들기
+#### tailwind로 버튼 UI 만들기
 
 <br>
 
-- `App.tsx`
-  - `div` 로 감싸서 버튼들을 화면 가운데에 정렬
-  - 버튼 세 개 생성 (Add / Cancel / Success)
-  - 각 버튼에 `type`, `className`을 `props`로 전달해서 각각 다른 스타일 적용
+❗️ `App.tsx`
+
+- `div` 로 감싸서 버튼들을 화면 가운데에 정렬
+- 버튼 세 개 생성 (Add / Cancel / Success)
+- 각 버튼에 `type`, `className`을 `props`로 전달해서 각각 다른 스타일 적용
 
 <br>
 
@@ -36,8 +37,9 @@ export default function App() {
 ```
 
 <br>
+<br>
 
-- `Buton.tsx`
+❗️ `Buton.tsx`
 
 <br>
 
@@ -67,6 +69,7 @@ export default function Button({ children, type, className }: ButtonProps) {
 }
 ```
 
+<br>
 <br>
 
 2️⃣ `App.tsx` 에서 넘긴 모든 `props` 를 받아서 `children` , `className` 만 꺼내고 나머지는 `...rest` 로 `button` 요소에 그대로 전달
